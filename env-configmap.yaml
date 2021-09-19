@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-refactor-bucket
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: udagram-refactor-db.clxdmga8eqdq.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8080
+metadata:
+  name: env-config
